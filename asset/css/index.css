@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-font: 'Montserrat', sans-serif;
+    --heading-font: 'Lora', serif;
+    --logo-font: 'Crimson Pro', serif;
+
+    --text-lg: 3.6rem;
+    --text-md: 1.8rem;
+    --text-sm: 1.4rem;
+    --text-xsm: 1.2rem;
+    --text-xxsm: 1rem;
+
+    --color-white: #FFFFFF;
+    --color-dark: #4E5150;
+    --color-gray-1: #E5E5E5;
+    --color-gray-2: #A9A9A9;
+    --color-gray-3: #BDBDBD;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.header {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-logo {
+    width: 15.6rem;
+    height: 15.6rem;
+
+}
+
+.info-logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.6rem;
+}
+
+.info-name {
+    margin-top: 1.6rem;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color:var(--color-dark);
+}
+.info-address{
+    margin-top: .8rem;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color:var(--color-gray-2);
+}
+.statistic{
+    display: flex;
+    justify-content: center;
+    gap:2.4rem;
+
+    margin-top: 2.4rem;
+}
+.statistic-card{
+    padding: 1.5rem 2rem;
+    border-radius: 1.2rem;
+    background-color: var(--color-gray-1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+
+    width: 10rem;
+    height: 6.8rem;
+}
+.statistic-number{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color:var(--color-dark);
+}
+.statistic-name{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color:var(--color-gray-2);
+}
