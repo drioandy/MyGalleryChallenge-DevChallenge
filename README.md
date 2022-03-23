@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://tatranan.github.io/MyGalleryChallenge/">
+    <a href="https://github.com/tatranan/MyGalleryChallenge-DevChallenge">
       Demo
     </a>
     <span> | </span>
